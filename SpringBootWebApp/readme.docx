@@ -1,0 +1,1 @@
+In this application i use tomcat jasper dependency in order to work with jsp pages. Also i used the application properties file for configuration of hidden file path and extensions
