@@ -1,11 +1,11 @@
-package com.myapp.springboot;
+package com.springBootPrototypeAutoWireDependencyInjection;
 
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component
-
+@Scope(value = "prototype")
 public class Student 
 {
 	private int sid;
